@@ -1,4 +1,4 @@
-This repo would be able to setup Jmeter for CockroachDB
+#Setup Jmeter for CockroachDB
 
 Files: \
 `Cockroachdb.jmx` -- Jmeter test plan
