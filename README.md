@@ -5,7 +5,8 @@ Files: \
 `jmeter-plugins-manager-1.4.jar` -- Jmeter plugin
 
 Sample DataSets: \
-`fandango_score_comparison_data.csv -- fandango_score_comparison_data table dataset  \
+`fandango_score_comparison_data.csv -- fandango_score_comparison_data table dataset  \n
+
 fandango_scrape_data.csv  -- fandango_scrape_data table dataset`
 
 JDBC Driver required: \
