@@ -16,7 +16,7 @@ Test dataset that is used as variable data: \
 
 Importing and creating the tables in CRDB required for the test case:
 
-cockroach nodelocal upload <download_location>/fandango_scrape_data.csv fandango_scrape_data.csv --host=localhost:26257 --insecure
+```cockroach nodelocal upload <download_location>/fandango_scrape_data.csv fandango_scrape_data.csv --host=localhost:26257 --insecure
 
 cockroach nodelocal upload <download_location>/fandango_score_comparison_data.csv  fandango_score_comparison_data.csv --host=localhost:26257 --insecure
 
@@ -57,3 +57,4 @@ ID INT,
 CONSTRAINT "PRIMARY" PRIMARY KEY (ID)
 )
 CSV DATA ('nodelocal://1/fandango_score_comparison_data.csv');
+```
