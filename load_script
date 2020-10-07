@@ -1,0 +1,10 @@
+#/bin/sh
+
+date
+while true ;
+do 
+for i in $(cat /Users/rajeshkamtamani/Downloads/data-master/fandango/loadtest_numbers) 
+do
+cockroach sql --insecure --host localhost:26257  --execute="select * from FANDANGO.FANDANGO_SCORE_COMPARISON where id= ${i}";
+done;
+done;
